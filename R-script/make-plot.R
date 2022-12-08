@@ -27,9 +27,4 @@ ggsave(filename = "Analysis/result.png",
        height = 10.5, width = 14.8,
        units = "cm")
 
-sink (file = "Analysis/average-rainfall.csv")
-
-sink (file = "Data/melbourne.csv")
-
-sink (file = "Data/oxford.txt")
 
