@@ -8,4 +8,4 @@ To run this analysis use the following command:
 Rscript R-script/make-plot.R
 ```
 
-The input data is in `data` and the results are in `out`.
+The input data is in `Data` and the results are in `Analysis`.
