@@ -1,5 +1,5 @@
 melb_df <- read.table(
-  file = "(Input correct working directory)\\Data\\melbourne.csv",
+  file = "(Input correct working directory)\\Data\\melbourne.csv"),
   header = TRUE,
   sep = ",",
   skip = 11)
@@ -7,7 +7,7 @@ melb_df <- read.table(
 mean_rainfall_melb <- as.numeric(melb_df[24,2:13])
 
 ox_df <- read.table(
-  file = "(Input correct working directory)\\Data\\oxford.txt",
+  file = "(Input correct working directory)\\Data\\oxford.txt"),
   header = FALSE,
   col.names = c("year", "month", "x1", "x2", "x3", "rain", "x4"),
   skip = 7,
